@@ -68,9 +68,14 @@
 
 /* read more less text font */
 .project-container .read-more-less {
+  display: inline-block;
   font-weight: 400;
   font-size: 1.5rem;
   /*color: var(--project-read-more-less-text-color);*/
+}
+
+.project-container .read-more-less:hover {
+  text-decoration: underline;
 }
 
 .project-container .project-header > .read-more-less > .read-less {
