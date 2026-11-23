@@ -50,12 +50,12 @@ page_data:
       project_name: "MovieTalk"
       project_excerpt: "영화 취향을 공유하는 캡스톤 웹 서비스에서 마이페이지, 플레이리스트, 친구 찾기 백엔드를 구현했습니다."
       img: ":movietalk.png"
-      img_title: "img title1"
-      date: "2025-03 ~ 2025.06"
+      img_title: "MovieTalk 메인 화면"
+      date: "2025-03 ~ 2025-06"
       post: |
         ### 프로젝트 소개
 
-        영화 정보를 검색하고, 좋아하는 영화를 모아 다른 사용자와 취향을 공유하는 웹 서비스입니다. 4인 캡스톤 팀에서 React, Spring Boot, MySQL로 개발했습니다.
+        영화 정보를 검색하고, 좋아하는 영화를 모아 다른 사용자와 취향을 공유하는 웹 서비스입니다. 4인 캡스톤 팀에서 React, Spring Boot, Spring Data JPA, MySQL로 개발했습니다. 리뷰와 커뮤니티에 더해, 커스텀 영화제와 플레이리스트로 자신의 취향을 표현하고 GPT 챗봇으로 영화를 추천받을 수 있습니다.
 
         ### 역할
 
@@ -63,7 +63,15 @@ page_data:
         - 마이페이지의 커스텀 영화제와 플레이리스트에 등록·조회·수정·삭제 기능을 구현했습니다.
         - 친구 찾기에서 다른 사용자의 즐겨찾기 영화 목록을 조회하는 기능을 구현하고, React 화면과 백엔드 API를 연동했습니다.
 
-        [팀 저장소](https://github.com/MOVlETALK/MovieTalk) · [내 커밋](https://github.com/MOVlETALK/MovieTalk/commits/main/?author=GlintJade)
+        ### 화면
+
+        ![마이페이지](/assets/img/posts/mt-mypage.png)
+
+        ![플레이리스트 만들기](/assets/img/posts/mt-playlist-create.png)
+
+        ![친구 찾기](/assets/img/posts/mt-find-friend.png)
+
+        [자세한 글 보기](/ko/2025-06-11-movietalk) · [팀 저장소](https://github.com/MOVlETALK/MovieTalk) · [내 커밋](https://github.com/MOVlETALK/MovieTalk/commits/main/?author=GlintJade)
 
     - type: id_team
       project_name: "인사 관리 시스템"
